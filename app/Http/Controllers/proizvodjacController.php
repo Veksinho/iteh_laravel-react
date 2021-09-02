@@ -51,7 +51,14 @@ class proizvodjacController extends Controller
      */
     public function show($id)
     {
-        //
+        $result=\DB::table('proizvodjacs')
+        ->join('models', function ($join) use($id){
+            $join->on('proizvodjacs.id', '=', 'models.proizvodjacs_id')
+                 ->where('proizvodjacs.id', '=', $id);
+        })
+        ->get();
+
+        return $result;
     }
 
     /**
