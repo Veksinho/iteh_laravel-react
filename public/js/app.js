@@ -1923,7 +1923,7 @@ function Footer() {
       className: "navbar fixed-bottom",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
         "class": "navbar-brand",
-        children: "TopGear 2021"
+        children: "CarBuyer 2021"
       })
     })
   });
@@ -1971,7 +1971,7 @@ function Header() {
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("a", {
           className: "navbar-brand",
           href: "#",
-          children: "TopGear"
+          children: "CarBuyer"
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("button", {
           className: "navbar-toggler",
           type: "button",
@@ -2003,10 +2003,6 @@ function Header() {
             })]
           })
         })]
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Route, {
-        exact: true,
-        path: "/",
-        component: _proizvodjac_Index__WEBPACK_IMPORTED_MODULE_2__.default
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Route, {
         exact: true,
         path: "/proizvodjaci",

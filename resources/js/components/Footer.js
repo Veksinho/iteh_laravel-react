@@ -5,7 +5,7 @@ function Footer() {
         <div>
             <nav className="navbar fixed-bottom">
                 <a class="navbar-brand">
-                    TopGear 2021
+                    CarBuyer 2021 
                 </a>
             </nav>
         </div>
