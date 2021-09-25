@@ -3,6 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
+use App\Models\models;
+use App\Models\proizvodjac;
+use Illuminate\Support\Facades\DB;
 
 class proizvodjacController extends Controller
 {

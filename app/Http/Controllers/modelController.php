@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
+use App\Models\models;
+use App\Models\proizvodjac;
 
 class modelController extends Controller
 {
@@ -13,8 +16,8 @@ class modelController extends Controller
      */
     public function index()
     {
-        $result=model::join('proizvodjacs','models.proizvodjac_id','=','proizvodjacs.id')
-        ->get(['models.*','proizvodjacs.naziv']);
+        $result=models::join('proizvodjacs','models.proizvodjacs_id','=','proizvodjacs.id')
+        ->get(['models.*']);
         
         return $result;
     }
@@ -37,7 +40,7 @@ class modelController extends Controller
      */
     public function store(Request $request)
     {
-        $model=new model();
+        $model=new models();
         $model->naziv=$request->naziv;
         $model->karoserija=$request->karoserija;
         $model->opis=$request->opis;
@@ -87,7 +90,7 @@ class modelController extends Controller
      */
     public function destroy($id)
     {
-        $model = model::find($id);
+        $model = models::find($id);
         $model->delete();
     }
 }

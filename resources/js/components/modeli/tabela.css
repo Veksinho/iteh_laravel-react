@@ -1,0 +1,8 @@
+.card:hover{
+
+    border: solid 2px #301919;
+}
+
+.btn-danger:hover{
+    background-color: red;
+}

@@ -1,0 +1,64 @@
+.jumbotron{
+    height: 200px;
+    margin-bottom: 0;
+}
+
+img{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+img:hover{
+    cursor: pointer;
+    border:solid 5px;
+    border-color:#301919 ;
+}
+
+.row{
+    margin-top: 30px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    text-align: center;
+}
+/* #baner{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+   
+}
+
+#baner:hover{
+    cursor: pointer;
+} */
+
+.btn{
+    background-color: #301919;
+    color:#f5d6b3;
+}
+
+.btn:hover{
+    color:#301919;
+    background-color: #f5d6b3;
+}
+
+.card{
+    background-color: #f5d6b3;
+    border: solid 2px #301919;
+
+}
+
+
+.card:hover{
+    border: solid 5px #301919;
+    
+    font-size: 50px;
+}
+
+
+
+
